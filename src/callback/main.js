@@ -12,3 +12,8 @@ console.log(calc(10,4,sum));
 setTimeout(function (){
     console.log('hello world')
 }, 4000)
+
+function greeting(name){
+    console.log(`hello ${name}`)
+}
+setTimeout(greeting, 4000, 'user')
