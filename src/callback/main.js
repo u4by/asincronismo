@@ -7,3 +7,8 @@ return callback(num1,num2);
 };
 
 console.log(calc(10,4,sum));
+
+
+setTimeout(function (){
+    console.log('hello world')
+}, 4000)
